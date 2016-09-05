@@ -1,6 +1,7 @@
 /*****BASE STYLES*****/
 
 body {
+  background: url(../img/forest-background-copy.jpg) repeat 100% 100% fixed;
   background-color: #abacaa;
   font-family: 'Raleway', sans-serif;
 }
@@ -82,6 +83,7 @@ nav ul li a {
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
+  font-weight: bold;
   margin: 0 auto;
   padding-left: 30px;
   text-decoration: none;
@@ -110,6 +112,10 @@ nav ul li a {
 
  /***** PRIVATE CLIENTS *****/
 
+ .fotorama__wrap {
+     margin: 0 auto;
+ }
+
  #private-clients .full-width {
    clear: both;
    height: 700px;
@@ -118,23 +124,17 @@ nav ul li a {
 
 #private-clients h2 {
    color: #8a24ab;
-   font-family: 'Raleway', sans-serif;
-   font-size: 30px;
+   font-family: 'Satisfy', cursive;
+   font-size: 48px;
    text-align: center;
  }
 
- #private-clients h4 {
-    color: #000000;
-    font-family: 'Raleway', sans-serif;
-    font-size: 24px;
-    text-align: center;
-  }
-
  #private-clients img {
     border: 3px solid #8a24ab;
-    margin: 0 auto;
-    width: 350px;
+    margin: 0;
+    max-width: 350px;
     height: auto;
+    text-align: center;
 }
 
  #private-clients p {
@@ -144,28 +144,12 @@ nav ul li a {
    text-align: center;
 }
 
-/*****#private-clients a {
-  color: #000000;
-  font-weight: bold;
-  font-size: 24px;
-  text-align: center;
-  text-decoration: none;
-}*****/
-
  /***** THEATRE *****/
 
  #theatre .full-width {
      clear: both;
-     height: 800px;
-     padding: 25px 175px 70px 175px;
- }
-
- #theatre .half-width {
-   float: left;
-   height: 475px;
-   margin: 0 auto;
-   text-align: center;
-   width: 540px;
+     height: 100%;
+     padding: 125px 175px 70px 175px;
  }
 
  #theatre h2 {
@@ -173,22 +157,14 @@ nav ul li a {
    font-family: 'Satisfy', cursive;
    font-size: 48px;
    margin: 0;
-   padding: 0px 0px 50px 0px;
+   padding: 100px 0px 50px 0px;
    text-align: center;
  }
-
-#theatre h3 {
-  color: #8a24ab;
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  margin: 0;
-  padding: 0px 0px 50px 0px;
-  text-align: center;
-}
 
  #theatre img {
     border: 3px solid #8a24ab;
     margin: 0;
+    text-align: center;
   }
 
 #theatre p {
@@ -202,8 +178,9 @@ nav ul li a {
 
  #other-projects .full-width {
      clear: both;
-     height: 250px;
-     padding: 25px 175px 70px 175px;
+     height: 100%;
+     padding: 125px 175px 70px 175px;
+     align-content: center;
  }
 
  #other-projects h2 {
@@ -212,15 +189,6 @@ nav ul li a {
    font-size: 44px;
    margin: 0;
    text-align: center;
- }
-
- #other-projects .half-width {
-   float: left;
-   height: 250px;
-   margin: 0 auto;
-   padding: 25px 50px 70px 50px;
-   text-align: center;
-   width: 540px;
  }
 
 #other-projects h3 {
@@ -234,12 +202,14 @@ nav ul li a {
  #other-projects img {
     border: 3px solid #8a24ab;
     margin: 0;
+    text-align: center;
   }
 
 #other-projects p {
   color: #000000;
   font-family: 'Raleway', sans-serif;
   font-size: 22px;
+  text-align: center;
 }
 
 #other-projects ul {
@@ -247,7 +217,6 @@ nav ul li a {
    font-size: 24px;
    font-weight: bold;
    list-style: none;
-   /*****margin: 0px 0px 0px -38px;*****/
    padding-right: 90px;
    text-align: center;
  }
@@ -260,7 +229,7 @@ nav ul li a {
 
 #contact .full-width {
     clear: both;
-    padding: 25px 175px 70px 175px;
+    padding: 125px 0px 70px 0px;
 }
 
 #contact h3 {
@@ -268,8 +237,8 @@ nav ul li a {
   font-family: 'Satisfy', cursive;
   font-size: 48px;
   margin: 0;
-  padding: 0px 0px 50px 0px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 #contact a {
@@ -297,28 +266,31 @@ nav ul li a {
   font-size: 32px;
   padding-right: 60px;
   padding-top: 20px;
+  border: none;
 }
 
 /*****FOOTER*****/
 
-footer .full-width {
-  clear: left;
-  height: 80px;
+footer {
+  clear: both;
+  height: 30px;
   margin: auto;
-  text-align: left;
+  display: inline;
 }
 
 footer h2 {
   color: #000000;
   font-size: 18px;
-  font-weight: bold;
-  text-align: left;
+  float: left;
+  padding-left: 20px;
 }
 
 footer a {
   color: #8a24ab;
-  font-size: 24px;
+  font-family: 'Satisfy', cursive;
+  font-size: 22px;
   font-weight: bold;
-  text-align: center;
+  float:right;
   text-decoration: none;
+  padding-right: 550px;
 }

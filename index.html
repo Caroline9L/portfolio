@@ -7,6 +7,16 @@
         <link rel="stylesheet" href="css/main.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+
+        <!-- 1. Link to jQuery (1.8 or later), -->
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+        <!-- fotorama.css & fotorama.js. -->
+        <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> 
+
+
+
       </head>
 
     <body>
@@ -19,9 +29,8 @@
           <div class="half-width">
               <nav>
                 <ul>
-                  <li><a href="#private-clients">Private Clients</a></li>
-                  <li><a href="#theatre">Theatre Work</a></li>
-                  <li><a href="#other-projects">Other Projects</a></li>
+                  <li><a href="http://www.carolineslaporta.com/Project1/">Coding Project 1</a></li>
+                  <li><a href="http://www.carolineslaporta.com/Project2/">Coding Project 2</a></li>
                   <li><a href="#contact">Contact</a></li>
                 </ul>
               </nav>
@@ -40,364 +49,99 @@
       <section id="private-clients">
         <div class="full-width">
           <h2>Private Clients</h2>
-          <h4>Click any image to enlarge</h4>
-          <div class="quarter-width">
-            <a href="img/mummy-lg.png" target="_blank"><img src="img/mummy-thumb.png"></a>
-              <p>Mummy 2015</p>
+            <div class="fotorama" data-fit="none" data-width="900px" data-height="600"
+                data-nav="thumbs">
+                <a href="img/mummy-lg.png" data-caption="Mummy costume 2015. Based on the Universal classic creature"><img src="img/mummy-thumb.png"></a>
+                <a href="img/horseman-1-lg.png" data-caption="Headless Horseman 2013. Based on a uniform worn by George Washington"><img src="img/horseman-1-thumb.png"></a>
+                <a href="img/horseman-2-lg.png" data-caption="Headless Horseman 2014 (and others). Based on Horseman from NBC's Sleepy Hollow"><img src="img/horseman-2-thumb.png"></a>
+                <a href="img/horseman-3-lg.png" data-caption="Headless Horseman 2014"><img src="img/horseman-3-thumb.png"></a>
+                <a href="img/bridesmaid-lg.png" data-caption="Bridesmaid 2007"><img src="img/bridesmaid-thumb.png"></a>
+                <a href="img/xmen-lg.png" data-caption="Rogue and Gambit of the XMen for a 2012 convention"><img src="img/xmen-thumb.png"></a>
+                <a href="img/xmen-2-lg.png" data-caption="Update of Gambit (includes wig) 2016"><img src="img/xmen-2-thumb.png"></a>
+                <a href="img/jedi-lg.png" data-caption="Jedi costumes for Halloween 2009"><img src="img/jedi-thumb.png"></a>
+                <a href="img/ren-lg.png" data-caption="Full ensemble for a Renaissance Faire, 2015"><img src="img/ren-thumb.png"></a>
+                <a href="img/colonial-lg.png" data-caption="Rococco ensemble - velvet coat 2006, rest 2014"><img src="img/colonial-thumb.png"></a>
+                <a href="img/horsemen-1-lg.png" data-caption="Steampunk Four Horsemen of the Apocolypse, group costume for a convention, 2011"><img src="img/horsemen-1-thumb.png"></a>
+                <a href="img/horsemen-2-lg.png" data-caption="Detail, Steampunk Famine, 2011"><img src="img/horsemen-2-thumb.png"></a>
+                <a href="img/horsemen-3-lg.png" data-caption="Detail, Steampunk Pestilence, 2011"><img src="img/horsemen-3-thumb.png"></a>
+              </div>
+              <p>It may seem odd that my first focus is on private projects, but I list them at the top because they are my favorites. Shows have
+               constraints to follow, but someone who wants a costume simply wants to be able to live their dream with no boundaries. Here you can
+               see some of my favorite examples of making dreams come true through costumes that are immaculate in detail and perfectly fit.</p>
+
           </div>
-
-          <div class="quarter-width">
-            <a href="img/horseman-1-lg.png" target="_blank"><img src="img/horseman-1-thumb.png"></a>
-              <p>Headless<br>
-                Horseman 2013</p>
-          </div>
-
-          <div class="quarter-width">
-            <a href="img/horseman-2-lg.png" target="_blank"><img src="img/horseman-2-thumb.png"></a>
-              <p>Headless<br>
-                Horseman 2014</p>
-          </div>
-
-          <div class="quarter-width">
-            <a href="img/horseman-3-lg.png" target="_blank"><img src="img/horseman-3-thumb.png"></a>
-              <p>Headless<br>
-                Horseman 2014</p>
-          </div>
-
-          <div class="fifth-width">
-            <a href="img/bridesmaid-lg.png" target="_blank"><img src="img/bridesmaid-thumb.png"></a>
-              <p>Bridesmaid 2007</p>
-          </div>
-
-          <div class="fifth-width">
-            <a href="img/xmen-lg.png" target="_blank"><img src="img/xmen-thumb.png"></a>
-              <p>Xmen 2012</p>
-          </div>
-
-          <div class="fifth-width">
-            <a href="img/xmen-2-lg.png" target="_blank"><img src="img/xmen-2-thumb.png"></a>
-              <p>Gambit (Xmen) 2016</p>
-          </div>
-
-          <div class="fifth-width">
-            <a href="img/jedi-lg.png" target="_blank"><img src="img/jedi-thumb.png"></a>
-              <p>Jedi 2009</p>
-          </div>
-
-          <div class="fifth-width">
-            <a href="img/ren-lg.png" target="_blank"><img src="img/ren-thumb.png"></a>
-              <p>Renaissance Fair<br>
-                 ensemble 2015</p>
-            </div>
-
-          <div class="quarter-width">
-            <a href="img/colonial-lg.png" target="_blank"><img src="img/colonial-thumb.png"></a>
-              <p>Rococco ensemble<br>
-              2006-2014</p>
-            </div>
-
-          <div class="quarter-width">
-            <a href="img/horsemen-1-lg.png" target="_blank"><img src="img/horsemen-1-thumb.png"></a>
-              <p>Steampunk 4 Horsemen of the Apocolypse<br>
-              2011</p>
-            </div>
-
-          <div class="quarter-width">
-            <a href="img/horsemen-2-lg.png" target="_blank"><img src="img/horsemen-2-thumb.png"></a>
-              <p>Steampunk Famine<br>
-              2011</p>
-            </div>
-
-          <div class="quarter-width">
-            <a href="img/horsemen-3-lg.png" target="_blank"><img src="img/horsemen-3-thumb.png"></a>
-              <p>Steampunk<br>
-              Pestilence<br>
-              2011</p>
-            </div>
-          </div>
-
-          <!--<a href="mailto:caroline.s.laporta@gmail.com" target="_blank"><img src="img/icon-envelope.png" id="envelope"
-             alt="envelope icon" />Please contact me with your unique ideas!</a>-->
-
         </section>
 
-      <section id="theatre">
-        <div class="full-width">
-          <h2>Theatre</h2>
-          <h3>Paper Mill Playhouse (Millburn, NJ) - Head Draper</h3>
-          <div class="quarter-width">
-            <a href="img/wss-1-lg.png" target="_blank"><img src="img/wss-1-thumb.png"></a>
-              <p>West Side Story 2016<br>
-              Des. Dana Burkart<br>
-              Dance dress mockup</p>
-          </div>
+     <section id="theatre">
+       <div class="full-width">
+           <h2>Theatre</h2>
 
-          <div class="quarter-width">
-            <a href="img/wss-2-lg.png" target="_blank"><img src="img/wss-2-thumb.png"></a>
-              <p>West Side Story 2016<br>
-              Des. Dana Burkart<br>
-              Final dress (gold)</p>
-          </div>
-
-        <div class="quarter-width">
-          <a href="img/dinettes-2-lg.png" target="_blank"><img src="img/dinettes-2-thumb.png"></a>
-            <p>Pump Boys and Dinettes 2016<br>
-            Des. Brian Hemesath</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/xmas-story-lg.png" target="_blank"><img src="img/xmas-story-thumb.png"></a>
-            <p>A Christmas Story 2015<br>
-            Des. Leon Dombromski</p>
-        </div>
-
-        <div class="third-width">
-          <a href="img/bandstand-1-lg.png" target="_blank"><img src="img/bandstand-1-thumb.png"></a>
-            <p>The Bandstand 2015<br>
-            Des. Paloma Young<br>
-            Photo (c) Jerry Dalia</p>
-        </div>
-
-        <div class="third-width">
-          <a href="img/bandstand-2-lg.png" target="_blank"><img src="img/bandstand-2-thumb.png"></a>
-          <p>The Bandstand 2015<br>
-          Des. Paloma Young<br>
-          Photo (c) Jerry Dalia</p>
-        </div>
-
-        <div class="third-width">
-          <a href="img/bandstand-3-lg.png" target="_blank"><img src="img/bandstand-3-thumb.png"></a>
-          <p>The Bandstand 2015<br>
-          Des. Paloma Young<br>
-          Photo (c) Jerry Dalia</p>
-        </div>
-      </div>
-
-      <div class="full-width">
-        <h3>Parsons-Meares, Ltd (Long Island City, NY) - First Hand</h3>
-        <div class="quarter-width">
-          <a href="img/rockettes-1-lg.png" target="_blank"><img src="img/rockettes-1-thumb.png"></a>
-            <p>Rockettes' Spring Spectacular 2015<br>
-            Des. Issac Misrahi<br>
-            Photo (c) Vanity Fair</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/hamilton-lg.png" target="_blank"><img src="img/hamilton-thumb.png"></a>
-            <p>Hamilton 2015<br>
-            Des. Paul Tazwell<br>
-            Photo (c) New York Times</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/gigi-1-lg.png" target="_blank"><img src="img/gigi-1-thumb.png"></a>
-            <p>Gigi 2015<br>
-            Des. Catharine Zuber</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/gigi-2-lg.png" target="_blank"><img src="img/gigi-2-thumb.png"></a>
-          <p>Gigi 2015<br>
-          Des. Catharine Zuber<br>
-          skirt applique detail</p>
-        </div>
-
-        <div class="half-width">
-          <a href="img/anna-1-lg.png" target="_blank"><img src="img/anna-1-thumb.png"></a>
-            <p>Disney on Ice:<br>
-            Worlds of Enchantment 2015<br>
-            "Frozen" segment<br>
-            Des. Cynthia Nordstrom</p>
-        </div>
-
-        <div class="half-width">
-          <a href="img/anna-2-lg.png" target="_blank"><img src="img/anna-2-thumb.png"></a>
-          <p>Disney on Ice:<br>
-          Worlds of Enchantment 2015<br>
-          "Frozen" segment<br>
-          Des. Cynthia Nordstrom</p>
-        </div>
-      </div>
-
-      <div class="full-width">
-        <h3>Shakespeare Theatre of NJ (Madison, NJ) - Head Draper</h3>
-        <div class="quarter-width">
-          <a href="img/henry-4-lg.png" target="_blank"><img src="img/henry-4-thumb.png"></a>
-            <p>Henry VIII 2014<br>
-              Des. Hugh Hansen<br>
-              (c) Jerry Dalia</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/henry-2-lg.png" target="_blank"><img src="img/henry-2-thumb.png"></a>
-            <p>Henry VIII 2014<br>
-              Des. Hugh Hansen<br>
-              (c) Jerry Dalia<br>
-              featured on "Saturday Night Live" 2016</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/henry-5-lg.png" target="_blank"><img src="img/henry-5-thumb.png"></a>
-            <p>Henry VIII 2014<br>
-              Des. Hugh Hansen<br>
-              (c) Jerry Dalia</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/henry-3-lg.png" target="_blank"><img src="img/henry-3-thumb.png"></a>
-            <p>Henry VIII 2014<br>
-              Des. Hugh Hansen<br>
-              (c) Jerry Dalia</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/wittenberg-2-lg.png" target="_blank"><img src="img/wittenberg-2-thumb.png"></a>
-            <p>Wittenberg 2014<br>
-              Des. Hugh Hansen<br>
-              (c) Jerry Dalia</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/wittenberg-lg.png" target="_blank"><img src="img/wittenberg-thumb.png"></a>
-            <p>Wittenberg 2014<br>
-              Des. Hugh Hansen<br>
-              (c) Jerry Dalia</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/alchemist-3-lg.png" target="_blank"><img src="img/alchemist-3-thumb.png"></a>
-            <p>The Alchemist 2014<br>
-              Des. Nikki Delhomme<br>
-              (c) Jerry Dalia</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/alchemist-1-lg.png" target="_blank"><img src="img/alchemist-1-thumb.png"></a>
-          <p>The Alchemist 2014<br>
-            Des. Nikki Delhomme<br>
-            (c) Jerry Dalia</p>
-        </div>
-
-        <div class="third-width">
-          <a href="img/devil-1-lg.png" target="_blank"><img src="img/devil-1-thumb.png"></a>
-            <p>The Devil's Disciple 2014<br>
-              Des. Candida Nichols<br>
-              (c) Jerry Dalia</p>
-        </div>
-
-        <div class="third-width">
-          <a href="img/ladies-2-lg.png" target="_blank"><img src="img/ladies-2-thumb.png"></a>
-            <p>The Learned Ladies 2014<br>
-              Wigs and costume work<br>
-              Des. Paul Canada<br>
-              (c) New York Times</p>
-        </div>
-
-        <div class="third-width">
-          <a href="img/ladies-1-lg.png" target="_blank"><img src="img/ladies-1-thumb.png"></a>
-          <p>The Learned Ladies 2014<br>
-            Wigs and costume work<br>
-            Des. Paul Canada<br>
-            (c) Jerry Dalia</p>
-        </div>
-      </div>
-
-      <div class="full-width">
-        <h3>Muhlenberg College (Allentown, PA) - Costume Shop Manager</h3>
-        <div class="quarter-width">
-          <a href="img/drood-lg.png" target="_blank"><img src="img/drood-thumb.png"></a>
-            <p>The Mystery of Edwin Drood 2013<br>
-              Des. Nicole Wee<br>
-              (c) Kenek Photography</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/crazy-lg.png" target="_blank"><img src="img/crazy-thumb.png"></a>
-            <p>Crazy For You 2013<br>
-              Des. Nicole Wee<br>
-              (c) Kenek Photography</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/Pajama-lg.png" target="_blank"><img src="img/Pajama-thumb.png"></a>
-            <p>The Pajama Game 2012<br>
-              Des. Constance Case</p>
-        </div>
-
-        <div class="quarter-width">
-          <a href="img/mikado-lg.png" target="_blank"><img src="img/mikado-thumb.png"></a>
-            <p>The Mikado 2010<br>
-              Des. Campbell Baird<br>
-              (c) Kenek Photography</p>
-        </div>
-
-        <div class="fifth-width">
-          <a href="img/colonial-2-lg.png" target="_blank"><img src="img/colonial-2-thumb.png"></a>
-            <p>La Dispute 2011<br>
-              Des. Angela Palaggi</p>
-        </div>
-
-        <div class="fifth-width">
-          <a href="img/Judas-lg.png" target="_blank"><img src="img/Judas-thumb.png"></a>
-            <p>The Last Days of Judas Iscariat 2010<br>
-              Des. Kevin Thacker<br>
-              (c) Kenek Photography</p>
-        </div>
-
-        <div class="fifth-width">
-          <a href="img/dance-2-lg.png" target="_blank"><img src="img/dance-2-thumb.png"></a>
-            <p>Master Choreographers 2010<br>
-              Des. Constance Case<br>
-              (c) Figtree Photography</p>
-        </div>
-
-        <div class="fifth-width">
-          <a href="img/plaid-lg.png" target="_blank"><img src="img/plaid-thumb.png"></a>
-            <p>Forever Plaid 2009<br>
-              Des. Campbell Baird<br>
-              (c) Kenek Photography</p>
-        </div>
-
-        <div class="fifth-width">
-          <a href="img/dance-1-lg.png" target="_blank"><img src="img/dance-1-thumb.png"></a>
-            <p>Master Choreographers<br>
-              Des. Constance Case<br>
-              (c) Figtree Photography</p>
-        </div>
+         <div class="fotorama" data-fit="none" data-width="900px" data-height="600px" data-nav="thumbs">
+             <a href="img/wss-2-lg.png" data-caption="West Side Story 2016<br>Paper Mill Playhouse<br>Des. Dana Burkart<br>Gold dance dress"><img src="img/wss-2-thumb.png"></a>
+             <a href="img/wss-1-lg.png" data-caption="West Side Story 2016<br>Paper Mill Playhouse<br>Des. Dana Burkart<br>Gold dance dress mockup<br>Photo &copy; Jerry Dalia"><img src="img/wss-1-thumb.png"></a>
+             <a href="img/dinettes-2-lg.png" data-caption="Pump Boys &amp; Dinettes 2016<br>Paper Mill Playhouse<br>Des. Brian Hemesath<br>Photo &copy; Jerry Dalia"><img src="img/dinettes-2-thumb.png"></a>
+             <a href="img/xmas-story-lg.png" data-caption="A Christmas Story<br>Paper Mill Playhouse 2015<br>Des. Leon Dombromski"><img src="img/xmas-story-thumb.png"></a>
+             <a href="img/bandstand-1-lg.png" data-caption="The Bandstand<br>Paper Mill Playhouse 2015<br>Train Waitress Uniform<br>Des. Paloma Young<br>Photo &copy; Jerry Dalia"><img src="img/bandstand-1-thumb.png"></a>
+             <a href="img/bandstand-2-lg.png" data-caption="The Bandstand<br>Paper Mill Playhouse 2015<br>Mother's Dress<br>Des. Paloma Young<br>Photo &copy; Jerry Dalia"><img src="img/bandstand-2-thumb.png"></a>
+             <a href="img/bandstand-3-lg.png" data-caption="The Bandstand<br>Paper Mill Playhouse 2015<br>Patriotic Entertainers<br>Des. Paloma Young<br>Photo &copy; Jerry Dalia"><img src="img/bandstand-3-thumb.png"></a>
+             <a href="img/rockettes-1-lg.png" data-caption="Rockettes' Spring Spectacular 2015<br>Des. Issac Misrahi<br>Photo &copy; Vanity Fair"><img src="img/rockettes-1-thumb.png"></a>
+             <a href="img/hamilton-lg.png" data-caption="Hamilton 2015<br>Women's vests and breeches<br>Des. Paul Tazewell<br>Photo &copy; New York Times"><img src="img/hamilton-thumb.png"></a>
+             <a href="img/gigi-1-lg.png" data-caption="Gigi 2015<br>Music Lesson Dress<br>Des. Catharine Zuber"><img src="img/gigi-1-thumb.png"></a>
+             <a href="img/gigi-2-lg.png" data-caption="Gigi 2015<br>Music Lesson Dress applique detail<br>Des. Catharine Zuber"><img src="img/gigi-2-thumb.png"></a>
+             <a href="img/anna-1-lg.png" data-caption="Disney on Ice: Worlds of Enchantment<br>Anna Travel Dress for Frozen Segment<br>Des. Cynthia Nordstom"><img src="img/anna-1-thumb.png"></a>
+             <a href="img/anna-2-lg.png" data-caption="Disney on Ice: Worlds of Enchantment<br>Anna Coronation Dress for Frozen Segment<br>Des. Cynthia Nordstom"><img src="img/anna-2-thumb.png"></a>
+             <a href="img/henry-4-lg.png" data-caption="Henry VIII 2014<br>Shakespeare Theatre of NJ<br>Anne Boleyn gown<br>Des. Hugh Hansen<br>Photo &copy Jerry Dalia"><img src="img/henry-4-thumb.png"></a>
+             <a href="img/henry-2-lg.png" data-caption="Henry VIII 2014<br>Shakespeare Theatre of NJ<br>Henry VIII black ensemble<br>(featured on Saturday Night Live 2016)<br>Des. Hugh Hansen<br>Photo &copy Jerry Dalia"><img src="img/henry-2-thumb.png"></a>
+             <a href="img/henry-5-lg.png" data-caption="Henry VIII 2014<br>Shakespeare Theatre of NJ<br>Henry VIII gold ensemble<br>Des. Hugh Hansen<br>Photo &copy Jerry Dalia"><img src="img/henry-5-thumb.png"></a>
+             <a href="img/henry-3-lg.png" data-caption="Henry VIII 2014<br>Shakespeare Theatre of NJ<br>Catharine of Aragon gown, Cardinal robes<br>Des. Hugh Hansen<br>Photo &copy Jerry Dalia"><img src="img/henry-3-thumb.png"></a>
+             <a href="img/wittenberg-2-lg.png" data-caption="Wittenberg 2014<br>Shakespeare Theatre of NJ<br>Hamlet Doublet outfit<br>Des. Hugh Hansen<br>Photo &copy Jerry Dalia"><img src="img/wittenberg-2-thumb.png"></a>
+             <a href="img/wittenberg-lg.png" data-caption="Wittenberg 2014<br>Shakespeare Theatre of NJ<br>Helen of Troy gown<br>Des. Hugh Hansen<br>Photo &copy Jerry Dalia"><img src="img/wittenberg-thumb.png"></a>
+             <a href="img/alchemist-3-lg.png" data-caption="The Alchemist 2014<br>Shakespeare Theatre of NJ<br>Fairy Queen ensemble<br>Des. Nikki Delhomme<br>Photo &copy Jerry Dalia"><img src="img/alchemist-3-thumb.png"></a>
+             <a href="img/alchemist-1-lg.png" data-caption="The Alchemist 2014<br>Shakespeare Theatre of NJ<br>Gold Doublet and breeches<br>Des. Nikki Delhomme<br>Photo &copy Jerry Dalia"><img src="img/alchemist-1-thumb.png"></a>
+             <a href="img/devil-1-lg.png" data-caption="The Devil's Disciple 2014<br>Shakespeare Theatre of NJ<br>Colonial gown<br>Des. Candida Nichols<br>Photo &copy Jerry Dalia"><img src="img/devil-1-thumb.png"></a>
+             <a href="img/ladies-2-lg.png" data-caption="The Learned Ladies 2014<br>Shakespeare Theatre of NJ<br>NY Times review (wigs)<br>Des. Paul Canada<br>Photo &copy NY Times"><img src="img/ladies-2-thumb.png"></a>
+             <a href="img/ladies-1-lg.png" data-caption="The Learned Ladies 2014<br>Shakespeare Theatre of NJ<br>Men's ensemble and wig<br>Des. Paul Canada<br>Photo &copy Jerry Dalia"><img src="img/ladies-1-thumb.png"></a>
+           </div>
+          <p>Currently I work as the Head Draper and workroom supervisor for the state theatre of New Jersey, Paper Mill Playhouse. This is one of my
+          most exciting jobs to date because the organization is on the cutting edge -- many of the productions that we work on continue on to Broadway
+          (including The Bandstand). I'm also lucky enough to be working in the heart of Manhattan with some of the best designers currently working. Prior
+          to my move to Paper Mill, I worked as a first hand and supervisor for Parsons-Meares, Ltd, a costume house in Queens that builds some of the
+          weirdest, most awesome things you may ever see on stage. Though my work there, I was able to contribute to Hamilton, Gigi, and several iterations
+          of Disney on Ice productions, as well as costumes for The Radio City Rockettes and The Lion King. Before shifting my focus to NYC, I worked for
+          the Shakespeare Theatre of NJ, with some of the most talented people I know.</p>
       </div>
     </section>
 
-    <section id="other-projects">
-      <div id="full-width">
-        <h2>Other Notable Work and Services</h2>
-        <div class="half-width">
-          <a href="img/magic-2-lg.png" target="_blank"><img src="img/magic-2-thumb.png"></a>
-            <p>Between Heaven and Hell 2012<br>
-            Des./Execution Caroline La Porta<br>
-            Touchstone Theatre, Bethlehem, PA<br>
-            Theatrical Magic Performance</p>
-        </div>
+      <section id="other-projects">
+        <div id="full-width">
+          <h2>Other Notable Work and Services</h2>
 
-        <div class="half-width">
-          <a href="img/new-porn-lg.png" target="_blank"><img src="img/new-porn-thumb.png"></a>
-            <p>New Pornographers<br>
-            Cover article, Magnet Magazine<br>
-            Stylist Caroline La Porta</p>
-        </div>
+            <div class="fotorama" data-fit="none" data-width="900px" data-height="600px" data-nav="thumbs">
+                <a href="img/magic-2-lg.png" data-caption="Between Heaven &amp; Hell 2012<br>Des/Execution Caroline La Porta<br>Touchstone Theatre, Bethlehem PA<br>Theatrical magic performance"><img src="img/magic-2-thumb.png"></a>
+                <a href="img/new-porn-lg.png" data-caption="New Pornographers<br>Cover story, Magnet Magazine 2005<br>Stylist Caroline La Porta"><img src="img/new-porn-thumb.png"></a>
+                <a href="img/dance-2-lg.png" data-caption="Master Choregraphers 2010<br>Muhlenberg College<br>Des. Constance Case<br>Photo &copy; Figtree Photography"><img src="img/dance-2-thumb.png"></a>
+                <a href="img/mikado-lg.png" data-caption="The Mikado 2010<br>Muhlenberg Summer Theatre<br>Des. Campbell Baird<br>Photo &copy; Kenek Photography"><img src="img/mikado-thumb.png"></a>
+                <a href="img/colonial-2-lg.png" data-caption="La Dispute 2011<br>Muhlenberg College<br>Des. Angela Palaggi"><img src="img/colonial-2-thumb.png"></a>
+            </div>
+             <p>My side work spans beyond building costumes for private individuals. I specialize in design and construction for magicians; I am lucky enough to
+              have the knowledge of the art to be able to build props as well as gimick clothing for whatever purpose the magician desires - and those guys
+              are a super creative bunch! On the more mundane side, I am an experienced stylist for print as well as real-life applications (ie, you'll leave
+              the house looking great!), as well as doing extensive practical work for academic theatre and dance.</p>
 
-        <div class="full-width">
-          <h3>Available Services:</h3>
-          <ul>
-            <li>Styling (Personal and Commercial)</li>
-            <li>Personal Shopping</li>
-            <li>Tailoring</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+             <h3>Available Services:</h3>
+             <ul>
+               <li>Costume design for theatre, magic, and private functions</li>
+               <li>Costume construction (freelance and overhire)</li>
+               <li>Sewing services for magicians (propmaking, clothing alteration/gimmicking, garment construction)</li>
+               <li>Styling (Personal and Commercial)</li>
+               <li>Personal Shopping</li>
+               <li>Tailoring</li>
+             </ul>
+         </div>
+       </section>
 
-    <section>
-      <div class="full-width" id="contact">
+    <section id="contact">
+      <div class="full-width">
         <h3>Interested in a costume?</h3>
           <a href="mailto:caroline.s.laporta@gmail.com" target="_blank"><img src="img/icon-envelope.png" id="envelope"
              alt="envelope icon" />Please drop me a line!</a>
@@ -406,22 +150,18 @@
               <li><a href="https://www.instagram.com/caroline9l/" target="_blank"><img src="img/icon-instagram.png" alt="Instagram" /></a></li>
               <li><a href="https://www.linkedin.com/in/carolineslaporta" target="_blank"><img src="img/icon-linkedin.png" alt="Linkedin" /></a></li>
               <li><a href="http://www.twitter.com/MagicianAsst" target="_blank"><img src="img/icon-twitter.png" alt="Twitter" /></a></li>
-              <li><a href="https://github.com/Caroline9L" target="_blank"><img src="img/icon-github.png" alt="Github" /></li>
+              <li><a href="https://github.com/Caroline9L" target="_blank"><img src="img/icon-github.png" alt="Github" /></a></li>
             </ul>
           </div>
         </section>
 
         <footer>
-          <div class="full-width">
-            <div class="third-width">
-              <h2>(c)2016 Caroline La Porta</h2>
-            </div>
-
-            <div class="third-width">
+        <!--  <div class="full-width">-->
+              <h2>&copy;2016 Caroline La Porta</h2>
               <a href="http://www.carolineslaporta.com">Click to return to home page</a>
-            </div>
-          </div>
+    <!--      </div>-->
         </footer>
+
       </main>
     </body>
   </html>
